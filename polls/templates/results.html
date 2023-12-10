@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Voting Page{% endblock%}
+
+
+{% block content %}
+
+<h2>{{data.question}}</h2>
+<h3> {{data.p1}} ---> {{data.p1c}} Votes </h3>
+<h3> {{data.p2}} ---> {{data.p2c}} Votes</h3>
+<h3> {{data.p3}} ---> {{data.p3c}} Votes</h3>
+
+{% endblock %}
